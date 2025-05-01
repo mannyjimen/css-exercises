@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+
 }
 
 .modal {
@@ -20,6 +22,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
 }
 
 .icon {
@@ -33,6 +36,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex-shrink: 0;
+
 }
 
 .close-button {
@@ -66,4 +72,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header{
+  font-weight: bold;
+  margin-right: auto;
+}
+
+
+.main-chunk{
+  display: flex;
+  margin: 30px;
+  gap: 15px;
+}
+.main-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.two-buttons{
+  display: flex;
+  gap: 5px;
+}
+
+.close-button{
+  flex-shrink: 0;
 }
